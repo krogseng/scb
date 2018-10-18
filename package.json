@@ -7,6 +7,9 @@
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
     "react-scripts": "2.0.3"
   },
   "scripts": {
@@ -23,5 +26,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
+  ]
+},
+"module": {
+  "loaders": [
+    {
+      "test": "/\.js$/, exclude: /node_modules/",
+      "loader": "babel-loader"
+    }
   ]
 }
