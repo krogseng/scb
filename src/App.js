@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Square from './Square';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
         <header className="App-header">
+
           <p>This is where I have added my beginning sentence.</p>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -21,6 +24,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+<body>
+<Square>
+          <p>Talking about the square</p>
+        </Square>
+</body>
       </div>
     );
   }
