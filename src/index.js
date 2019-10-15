@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Square from './Menu-square';
+//import Square from './Menu-square';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
